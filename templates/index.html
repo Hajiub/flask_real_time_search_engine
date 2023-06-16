@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Search Engine</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Real-Time Search Engine</h1>
+        <input id="search-input" type="text" placeholder="Search..." class="search-input">
+        <ul id="search-results" class="search-results"></ul>
+    </div>
+</body>
+</html>
